@@ -4,7 +4,7 @@
   "description": "socket io back end to live chat",
   "engines": {
     "node": "10.13.0",
-    "npm": "5.5.1"
+    "npm": "5.4.0"
   },
   "main": "app.js",
   "scripts": {
