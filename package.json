@@ -1,0 +1,30 @@
+{
+  "name": "that-dads-chat-server",
+  "version": "1.0.0",
+  "description": "socket io back end to live chat",
+  "engines": {
+    "node": "10.13.0",
+    "npm": "5.5.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "socket io, heroku, node, live chat"
+  ],
+  "author": "Aid Thompson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "node-fetch": "^2.3.0",
+    "nodemon": "*",
+    "socket.io": "^2.1.1"
+  }
+}
